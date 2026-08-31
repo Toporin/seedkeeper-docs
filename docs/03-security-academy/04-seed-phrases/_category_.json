@@ -1,0 +1,9 @@
+{
+  "label": "Seed Phrases",
+  "link": {
+    "type": "generated-index",
+    "title": "Seed Phrases Explained",
+    "description": "The 12 or 24 words behind every self-custody crypto wallet: what they are, how BIP39 turns randomness into readable words, how to store them so they survive fire and theft, and the handful of ordinary mistakes behind almost every lost wallet.",
+    "keywords": ["seed phrase", "recovery phrase", "BIP39", "mnemonic phrase", "crypto wallet backup", "seed phrase storage"]
+  }
+}

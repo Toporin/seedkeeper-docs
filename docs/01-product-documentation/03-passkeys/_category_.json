@@ -1,0 +1,9 @@
+{
+  "label": "Passkeys",
+  "link": {
+    "type": "generated-index",
+    "title": "Passkeys on Seedkeeper PRO",
+    "description": "Set your FIDO PIN, create your first passkey, list and delete stored credentials, and use the same device across phones and computers. Read the backup and recovery strategies before you rely on a single device, since hardware-bound passkeys cannot be copied.",
+    "keywords": ["hardware passkey", "FIDO2 security key", "passkey PIN", "passkey backup", "passkey recovery", "Seedkeeper PRO passkeys"]
+  }
+}

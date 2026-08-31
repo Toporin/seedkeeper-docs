@@ -1,0 +1,14 @@
+{
+  "label": "Financial",
+  "link": {
+    "type": "generated-index",
+    "title": "Financial Passkey Tutorials",
+    "description": "Secure the accounts that hold your money with a Seedkeeper PRO hardware passkey - PayPal, Binance and Kraken - with no cloud copy of your credentials anywhere.",
+    "keywords": [
+      "paypal passkey",
+      "binance passkey",
+      "kraken passkey",
+      "crypto exchange security key"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "label": "Authentication",
+  "link": {
+    "type": "generated-index",
+    "title": "Authentication Explained",
+    "description": "What actually proves you are who you claim to be online: the three categories of authentication factors, how MFA and 2FA differ, and how one-time codes work. Start with Authentication Factors Explained, then compare the second factors you are likely to be offered.",
+    "keywords": ["authentication", "multi-factor authentication", "2FA", "MFA", "one-time password", "TOTP", "authentication factors"]
+  }
+}

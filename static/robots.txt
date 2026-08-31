@@ -1,0 +1,83 @@
+# ---------------------------------------------------------------
+# Search engines
+# ---------------------------------------------------------------
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# ---------------------------------------------------------------
+# AI crawlers and answer engines
+# ---------------------------------------------------------------
+
+# OpenAI - training crawler
+User-agent: GPTBot
+Allow: /
+
+# OpenAI - search index behind ChatGPT browsing
+User-agent: OAI-SearchBot
+Allow: /
+
+# OpenAI - live fetch when a user asks about a specific page
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Common Crawl - feeds many downstream datasets
+User-agent: CCBot
+Allow: /
+
+# Apple
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Meta
+User-agent: meta-externalagent
+Allow: /
+
+# Mistral
+User-agent: MistralAI-User
+Allow: /
+
+# ---------------------------------------------------------------
+# Everyone else
+# ---------------------------------------------------------------
+
+User-agent: *
+Allow: /
+
+# The local search page generates one URL per query and has no content of
+# its own. Excluded from crawling, not from use.
+Disallow: /search
+
+Sitemap: https://docs.seedkeeper.io/sitemap.xml
+
+# LLM-friendly documentation
+# https://docs.seedkeeper.io/llms.txt

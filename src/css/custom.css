@@ -1,0 +1,493 @@
+/* ============================================================
+   docs.seedkeeper.io - custom styles
+   ============================================================ */
+
+
+/* ------------------------------------------------------------
+   1. THEME COLOURS
+   ------------------------------------------------------------ */
+
+:root {
+  --ifm-color-primary: #c8a95b;
+  --ifm-color-primary-dark: #ba9d55;
+  --ifm-color-primary-darker: #ac914e;
+  --ifm-color-primary-darkest: #9e8648;
+  --ifm-color-primary-light: #ccaf66;
+  --ifm-color-primary-lighter: #d0b572;
+  --ifm-color-primary-lightest: #d4bb7d;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(200, 169, 91, 0.1);
+  --ifm-container-width: 1280px;
+  --ifm-container-width-xl: 1600px;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #c8a95b;
+  --ifm-color-primary-dark: #ba9d55;
+  --ifm-color-primary-darker: #ac914e;
+  --ifm-color-primary-darkest: #9e8648;
+  --ifm-color-primary-light: #ccaf66;
+  --ifm-color-primary-lighter: #d0b572;
+  --ifm-color-primary-lightest: #d4bb7d;
+  --docusaurus-highlighted-code-line-bg: rgba(200, 169, 91, 0.15);
+}
+
+
+/* ------------------------------------------------------------
+   2. LAYOUT AND WATERMARK
+
+   The ginkgo is clipped on its own pseudo-element rather than
+   with overflow:hidden on .main-wrapper - an ancestor with
+   overflow:hidden silently disables position:sticky on every
+   descendant, which used to stop .step-image from sticking.
+   ------------------------------------------------------------ */
+
+.main-wrapper {
+  position: relative;
+}
+
+.main-wrapper::before {
+  content: '';
+  position: absolute;
+  bottom: -125px;
+  right: -40px;
+  width: 650px;
+  aspect-ratio: 1896 / 1335;
+  background-image: url('/img/gingko-white.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.20;
+  pointer-events: none;
+  z-index: 0;
+  clip-path: inset(0);
+}
+
+
+/* ------------------------------------------------------------
+   3. NAVBAR
+
+   Borders use currentColor so they follow the navbar link
+   colour, instead of a hard-coded white that disappears on a
+   light navbar.
+   ------------------------------------------------------------ */
+
+.navbar-shop-button {
+  border: 1px solid currentColor;
+  border-radius: 6px;
+  padding: 6px 14px !important;
+  transition: all 0.2s ease;
+  margin-right: 15px;
+}
+
+.navbar-shop-button:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+  text-decoration: none;
+}
+
+html[data-theme='light'] .navbar-shop-button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* dark-mode toggle */
+[class*="toggle_"] {
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  padding: 6px;
+}
+
+
+/* ------------------------------------------------------------
+   4. FOOTER
+
+   The footer takes the navbar background. In dark mode that is
+   dark and the footer--dark text colours work. In light mode it
+   becomes light, so the text colours have to come from the theme
+   instead - otherwise it is light grey on white.
+   ------------------------------------------------------------ */
+
+.footer--dark {
+  --ifm-footer-background-color: var(--ifm-navbar-background-color);
+}
+
+html[data-theme='light'] .footer--dark {
+  --ifm-footer-color: var(--ifm-font-color-base);
+  --ifm-footer-link-color: var(--ifm-color-emphasis-700);
+  --ifm-footer-link-hover-color: var(--ifm-color-primary);
+  --ifm-footer-title-color: var(--ifm-heading-color);
+
+  /* the footer no longer contrasts with the page, so give it an edge */
+  border-top: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.footer__copyright {
+  font-size: 0.8rem;
+  opacity: 0.7;
+  margin-top: 50px;
+}
+
+html[data-theme='light'] .footer__copyright {
+  opacity: 1;
+  color: var(--ifm-color-emphasis-600);
+}
+
+
+/* ------------------------------------------------------------
+   5. ADMONITIONS AND DETAILS
+   ------------------------------------------------------------ */
+
+.theme-admonition-tip {
+  --ifm-alert-background-color: rgba(200, 169, 91, 0.12);
+  --ifm-alert-border-color: #c8a95b;
+  --ifm-alert-color: #c8a95b;
+}
+
+.theme-admonition-tip .admonition-icon svg {
+  fill: #c8a95b;
+}
+
+.theme-admonition-warning {
+  --ifm-alert-background-color: rgba(196, 60, 60, 0.12);
+  --ifm-alert-border-color: #c43c3c;
+  --ifm-alert-color: #d96b6b;
+}
+
+.theme-admonition-warning .admonition-icon svg {
+  fill: #c43c3c;
+}
+
+/* <details> is rendered with the alert classes, so --ifm-alert-color
+   applies to its body text. It must follow the theme, not be a fixed
+   white that vanishes in light mode. */
+details {
+  --ifm-alert-background-color: rgba(200, 169, 91, 0.08);
+  --ifm-alert-border-color: #c8a95b;
+  --ifm-alert-color: var(--ifm-font-color-base);
+}
+
+
+/* ------------------------------------------------------------
+   6. DOC PAGE FURNITURE
+   ------------------------------------------------------------ */
+
+.doc-subtitle {
+  font-size: 1.50rem;
+  font-weight: 400;
+  color: var(--ifm-color-emphasis-600);
+  margin-top: -0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.tldr {
+  border: 1px solid var(--ifm-color-emphasis-400);
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  margin: 1.25rem 0 100px;
+}
+
+.tldr p:last-child {
+  margin-bottom: 0;
+}
+
+/* Platform availability badge (mobile-only / desktop-only tutorials) */
+.platform-note {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #c8a95b;
+  border: 1px solid #c8a95b;
+  border-radius: 6px;
+  padding: 4px 10px;
+  margin: 0 0 1rem 0;
+}
+
+/* Dashed separator above each section */
+.markdown h2 {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px dashed var(--ifm-color-emphasis-300);
+}
+
+/* No dashed line directly under the TL;DR box */
+.markdown .tldr + h2 {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 2rem;
+}
+
+.markdown table {
+  width: 100%;
+}
+
+.markdown table img {
+  vertical-align: middle;
+}
+
+
+/* ------------------------------------------------------------
+   7. DOWNLOAD BUTTONS AND STORE BADGES
+   ------------------------------------------------------------ */
+
+.store-badge {
+  display: inline-block;
+  height: 48px;
+}
+
+.download-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 18px;
+  border: 1px solid #c8a95b;
+  border-radius: 8px;
+  background-color: rgba(200, 169, 91, 0.06);
+  color: var(--ifm-font-color-base);
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.download-button:hover {
+  background-color: rgba(200, 169, 91, 0.15);
+  text-decoration: none;
+  color: var(--ifm-font-color-base);
+}
+
+.download-button img {
+  width: 24px;
+  height: 24px;
+}
+
+.download-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+  margin: 0.75rem 0 1.5rem;
+}
+
+
+/* ------------------------------------------------------------
+   8. TWO-COLUMN STEP LAYOUT
+   text on the left, screenshot or GIF on the right
+   ------------------------------------------------------------ */
+
+.step-layout {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin: 1.5rem 0;
+}
+
+.step-layout .step-text {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.step-layout .step-image {
+  flex: 0 0 380px;
+  position: sticky;
+  top: 90px;
+}
+
+/* wider variant, for landscape captures - applies at desktop width */
+.step-layout .step-image.step-image--wide {
+  flex: 0 0 520px;
+}
+
+@media (max-width: 850px) {
+  .step-layout {
+    flex-direction: column;
+  }
+
+  .step-layout .step-image,
+  .step-layout .step-image.step-image--wide {
+    position: static;
+    flex: 0 0 auto;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .step-layout .step-image { flex: 0 0 460px; }
+  .step-layout .mockup-image { max-width: 440px; }
+}
+
+
+/* ------------------------------------------------------------
+   9. MOCKUP IMAGES
+   For visuals that already carry their own frame - the
+   transparent phone mockups - so no border, shadow or background.
+   ------------------------------------------------------------ */
+
+.mockup-image {
+  display: block;
+  max-width: 360px;   /* défaut hors colonne d'étapes */
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+
+.step-layout .mockup-image {
+  max-width: 360px;
+}
+
+.step-layout .step-image--wide .mockup-image {
+  max-width: 360px;
+}
+
+
+/* ------------------------------------------------------------
+   10. CTA BOXES
+   Shared by _buy-seedkeeper-pro.mdx, _buy-backup-device.mdx,
+   _buy-b2b-pack.mdx and _get-support.mdx.
+
+   The photo bleeds to the top, bottom and right edges. That works
+   because the padding lives on the TEXT column, not on the box -
+   padding on the box would push the image inwards.
+
+   ONE KNOB to resize the photo: .cta-visual -> flex / max-width.
+   ------------------------------------------------------------ */
+
+.cta-box {
+  display: flex;
+  align-items: stretch;   /* lets the photo column fill the height */
+
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-left: 4px solid var(--ifm-color-primary);
+  border-radius: 10px;
+
+  padding: 0;             /* padding moved to .cta-text on purpose */
+  margin: 2.5rem 0;
+  min-height: 190px;
+  background: var(--ifm-background-surface-color);
+  overflow: hidden;       /* keeps the photo inside the rounded corners */
+}
+
+[data-theme='dark'] .cta-box {
+  background: var(--ifm-color-emphasis-100);
+}
+
+/* Text column carries the padding. min-width:0 lets it shrink
+   properly inside flex, so long words never push the photo out. */
+.cta-text {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 1.5rem 1.25rem 1.5rem 1.75rem;
+  align-self: center;
+}
+
+.cta-text > p:first-child {
+  margin-bottom: 0.5rem;
+  font-size: 1.05rem;
+}
+
+.cta-text p {
+  margin-bottom: 1rem;
+}
+
+.cta-text p:last-of-type {
+  margin-bottom: 0;
+}
+
+/* KNOB: width of the photo column. Bigger number, bigger photo. */
+.cta-visual {
+  flex: 0 0 340px;
+  max-width: 340px;
+  align-self: stretch;
+  line-height: 0;
+}
+
+.cta-visual p {
+  margin: 0;
+  height: 100%;
+}
+
+/* Full-bleed photo. `cover` crops rather than shrinks, which is what
+   lets it reach every edge. Extra specificity on purpose: theme rules
+   for images in doc content would otherwise override these. */
+.cta-box .cta-visual img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  object-position: center right;
+  pointer-events: none;
+
+  /* Soft fade on the left edge only, so the photo melts into the
+     text side instead of stopping on a hard vertical line. */
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 30%);
+  mask-image: linear-gradient(to right, transparent 0%, #000 30%);
+}
+
+.cta-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-top: 0.5rem;
+  padding: 0.65rem 1.4rem;
+  border-radius: 6px;
+  background: var(--ifm-color-primary);
+  color: #1a1a1a !important;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.cta-button:hover {
+  background: var(--ifm-color-primary-dark);
+  transform: translateY(-1px);
+}
+
+.cta-button:focus-visible {
+  outline: 2px solid var(--ifm-color-primary-lighter);
+  outline-offset: 2px;
+}
+
+/* Icon inside the button. currentColor makes it follow the button
+   text colour automatically, in light and dark mode alike. */
+.cta-icon {
+  width: 1.05em;
+  height: 1.05em;
+  flex-shrink: 0;
+}
+
+/* Medium screens: shrink the photo before dropping it entirely. */
+@media (max-width: 996px) {
+  .cta-visual {
+    flex: 0 0 230px;
+    max-width: 230px;
+  }
+}
+
+/* Narrow screens: the photo would leave no room for the text,
+   so it steps aside entirely rather than being squeezed. */
+@media (max-width: 768px) {
+  .cta-box {
+    min-height: 0;
+  }
+  .cta-text {
+    padding: 1.25rem;
+  }
+  .cta-visual {
+    display: none;
+  }
+  .cta-button {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+/* ------------------------------------------------------------
+   11. ACCESSIBILITY
+   ------------------------------------------------------------ */
+
+@media (prefers-reduced-motion: reduce) {
+  .cta-button {
+    transition: none;
+  }
+  .cta-button:hover {
+    transform: none;
+  }
+}

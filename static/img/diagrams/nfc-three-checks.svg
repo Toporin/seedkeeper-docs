@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" role="img"
+     aria-label="Three checks before troubleshooting NFC: turn NFC on, remove anything in between, and hold the device still.">
+  <title>The three checks: NFC on, nothing in between, hold still</title>
+
+  <style>
+    .ink   { fill: none; stroke: #6b7280; stroke-width: 5;
+             stroke-linecap: round; stroke-linejoin: round; }
+    .ink-f { fill: #6b7280; }
+    .gold  { fill: none; stroke: #c8a95b; stroke-width: 5;
+             stroke-linecap: round; stroke-linejoin: round; }
+    .gold-f{ fill: #c8a95b; }
+    .no    { fill: none; stroke: #d05a5a; stroke-width: 6; stroke-linecap: round; }
+    .lbl   { fill: #6b7280; font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+             font-size: 21px; font-weight: 600; text-anchor: middle; }
+    .num   { fill: #ffffff; font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+             font-size: 20px; font-weight: 700; text-anchor: middle; }
+  </style>
+
+  <!-- ================= 1. NFC IS ON ================= -->
+  <g transform="translate(0,0)">
+    <circle cx="42" cy="40" r="18" class="gold-f"/>
+    <text x="42" y="47" class="num">1</text>
+
+    <!-- phone -->
+    <rect x="92" y="70" width="104" height="180" rx="18" class="ink"/>
+    <line x1="128" y1="88" x2="160" y2="88" class="ink" stroke-width="6"/>
+
+    <!-- nfc waves coming off the phone -->
+    <path d="M212 132 a34 34 0 0 1 0 56" class="gold"/>
+    <path d="M234 116 a58 58 0 0 1 0 88" class="gold"/>
+    <path d="M256 100 a82 82 0 0 1 0 120" class="gold"/>
+
+    <!-- toggle, switched on -->
+    <rect x="98" y="196" width="92" height="42" rx="21" class="gold-f"/>
+    <circle cx="169" cy="217" r="15" fill="#ffffff"/>
+
+    <text x="180" y="300" class="lbl">NFC turned on</text>
+  </g>
+
+  <!-- ================= 2. NOTHING IN BETWEEN ================= -->
+  <g transform="translate(300,0)">
+    <circle cx="42" cy="40" r="18" class="gold-f"/>
+    <text x="42" y="47" class="num">2</text>
+
+    <!-- phone, left -->
+    <rect x="56" y="82" width="86" height="158" rx="16" class="ink"/>
+
+    <!-- the obstacle: case, wallet, other card - dashed, and crossed out -->
+    <rect x="162" y="100" width="38" height="122" rx="8" class="ink" stroke-dasharray="11 8"/>
+    <line x1="152" y1="92" x2="210" y2="230" class="no"/>
+
+    <!-- seedkeeper card, right -->
+    <rect x="222" y="120" width="112" height="80" rx="12" class="gold"/>
+    <rect x="238" y="142" width="26" height="20" rx="4" class="gold-f"/>
+    <path d="M276 156 a14 14 0 0 1 0 12 M288 150 a24 24 0 0 1 0 24" class="gold" stroke-width="4"/>
+
+    <text x="180" y="300" class="lbl">Nothing in between</text>
+  </g>
+
+  <!-- ================= 3. HOLD IT STILL ================= -->
+  <g transform="translate(600,0)">
+    <circle cx="42" cy="40" r="18" class="gold-f"/>
+    <text x="42" y="47" class="num">3</text>
+
+    <!-- phone lying flat -->
+    <rect x="122" y="82" width="104" height="168" rx="18" class="ink"/>
+
+    <!-- card held flat against it, centred -->
+    <rect x="119" y="128" width="110" height="76" rx="12" class="gold"/>
+    <rect x="135" y="150" width="26" height="20" rx="4" class="gold-f"/>
+    <path d="M173 164 a12 12 0 0 1 0 10 M184 158 a21 21 0 0 1 0 22" class="gold" stroke-width="4"/>
+
+    <!-- movement arrows, both crossed out -->
+    <g class="ink" stroke-width="5">
+      <path d="M100 166 h-26"/>
+      <path d="M86 155 l-13 11 13 11"/>
+      <path d="M248 166 h26"/>
+      <path d="M262 155 l13 11 -13 11"/>
+    </g>
+    <line x1="68" y1="146" x2="106" y2="186" class="no" stroke-width="5"/>
+    <line x1="242" y1="146" x2="280" y2="186" class="no" stroke-width="5"/>
+
+    <text x="180" y="300" class="lbl">Held still throughout</text>
+  </g>
+</svg>

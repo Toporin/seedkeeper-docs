@@ -1,0 +1,9 @@
+{
+  "label": "Security Academy",
+  "link": {
+    "type": "generated-index",
+    "title": "Security Academy",
+    "description": "The concepts behind the products, explained plainly and without jargon: how passwords are actually broken, what a passkey really is and why it cannot be phished, how two-factor authentication works and where it falls short, and what a seed phrase encodes. No prior knowledge needed.",
+    "keywords": ["security academy", "passkeys explained", "password security", "two-factor authentication", "seed phrase", "FIDO2", "cybersecurity basics"]
+  }
+}

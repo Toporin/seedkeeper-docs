@@ -1,0 +1,9 @@
+{
+  "label": "Getting Started",
+  "link": {
+    "type": "generated-index",
+    "title": "Getting Started with Seedkeeper",
+    "description": "Set up your Seedkeeper or Seedkeeper PRO from scratch: download the apps, run the first setup, choose a PIN, register a backup device, and adjust the settings that matter. Read the security best practices before you store anything you cannot afford to lose.",
+    "keywords": ["Seedkeeper setup", "Seedkeeper first use", "Seedkeeper PIN", "Seedkeeper backup device", "NFC card setup"]
+  }
+}

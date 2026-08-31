@@ -1,0 +1,9 @@
+{
+  "label": "Business",
+  "link": {
+    "type": "generated-index",
+    "title": "Seedkeeper for Organizations",
+    "description": "Phishing-resistant authentication for companies without a security team: the business case, a rollout plan that survives real users, provisioning at scale, the employee lifecycle, and what NIS2 and your auditor actually expect. Start with Why Hardware Keys for Your Business.",
+    "keywords": ["business security keys", "SME cybersecurity", "NIS2 authentication", "enterprise passkey deployment", "bulk provisioning", "phishing resistant MFA"]
+  }
+}

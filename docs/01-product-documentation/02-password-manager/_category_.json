@@ -1,0 +1,9 @@
+{
+  "label": "Password Manager",
+  "link": {
+    "type": "generated-index",
+    "title": "Seedkeeper Password Manager",
+    "description": "Store passwords, seed phrases and secure notes on your device's secure element rather than in a cloud vault. Create and generate new entries, import existing ones, organise and search your secrets, and update or remove them as needed.",
+    "keywords": ["hardware password manager", "offline password storage", "store seed phrase hardware", "secure notes NFC card", "Seedkeeper passwords"]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "label": "Product Documentation",
+  "link": {
+    "type": "generated-index",
+    "title": "Seedkeeper Product Documentation",
+    "description": "Everything your Seedkeeper and Seedkeeper PRO can do, from first setup to daily use: storing passwords, seed phrases and secure notes, registering passkeys, generating TOTP codes, and keeping a backup device in step. Start with Getting Started if the device is new to you.",
+    "keywords": ["Seedkeeper documentation", "Seedkeeper PRO manual", "hardware password manager guide", "NFC security key setup"]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "label": "Troubleshooting",
+  "link": {
+    "type": "generated-index",
+    "title": "Troubleshooting",
+    "description": "Something is not working. Start with Connection and NFC Issues if the device is not detected, PIN Problems and Lockouts if you cannot get in, or Lost or Stolen Device if it is gone. Each page gives the likely cause first and says plainly what is and is not recoverable.",
+    "keywords": ["Seedkeeper troubleshooting", "device not detected", "forgot PIN", "lost security key", "backup failed", "reset security key"]
+  }
+}
