@@ -117,7 +117,7 @@ Key facts: Seedkeeper PRO is FIDO2 Level 1 certified (certificate FA001202600016
       ({
         docs: {
           sidebarPath: './sidebars.js',
-		  /**showLastUpdateTime: true,*/
+		  showLastUpdateTime: true,
         },
         blog: false,
         theme: {
