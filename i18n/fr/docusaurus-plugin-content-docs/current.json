@@ -1,0 +1,282 @@
+{
+  "version.label": {
+    "message": "Suivant",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Product Documentation": {
+    "message": "Documentation produit",
+    "description": "The label for category 'Product Documentation' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Product Documentation.link.generated-index.title": {
+    "message": "Documentation Seedkeeper",
+    "description": "The generated-index page title for category 'Product Documentation' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Product Documentation.link.generated-index.description": {
+    "message": "Tout ce que votre Seedkeeper et votre Seedkeeper PRO savent faire, de la première configuration à l'usage quotidien : conserver mots de passe, seed phrases et notes sécurisées, enregistrer des passkeys, générer des codes TOTP et configurer votre sauvegarde. Commencez par Pour commencer si vous utilisez l'appareil pour la première fois.",
+    "description": "The generated-index page description for category 'Product Documentation' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started": {
+    "message": "Pour commencer",
+    "description": "The label for category 'Getting Started' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started.link.generated-index.title": {
+    "message": "Premiers pas avec Seedkeeper",
+    "description": "The generated-index page title for category 'Getting Started' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started.link.generated-index.description": {
+    "message": "Configurez votre Seedkeeper ou votre Seedkeeper PRO depuis le début : téléchargez les applications, faites la première configuration, choisissez un PIN, enregistrez un équipement secondaire et ajustez les réglages qui comptent. Lisez les bonnes pratiques de sécurité avant d'y enregistrer ce que vous ne pouvez pas vous permettre de perdre.",
+    "description": "The generated-index page description for category 'Getting Started' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Password Manager": {
+    "message": "Gestionnaire de mots de passe",
+    "description": "The label for category 'Password Manager' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Password Manager.link.generated-index.title": {
+    "message": "Le gestionnaire de mots de passe Seedkeeper",
+    "description": "The generated-index page title for category 'Password Manager' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Password Manager.link.generated-index.description": {
+    "message": "Conservez mots de passe, seed phrases et notes privées sur le secure element de votre appareil plutôt que dans le cloud. Créez et générez de nouvelles entrées, importez celles que vous avez déjà, organisez et recherchez vos secrets, puis mettez-les à jour ou supprimez-les selon vos besoins.",
+    "description": "The generated-index page description for category 'Password Manager' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.product-passkeys": {
+    "message": "Passkeys",
+    "description": "The label for category 'Passkeys' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.product-passkeys.link.generated-index.title": {
+    "message": "Les passkeys sur Seedkeeper PRO",
+    "description": "The generated-index page title for category 'Passkeys' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.product-passkeys.link.generated-index.description": {
+    "message": "Définissez votre PIN FIDO, créez votre première passkey, listez et supprimez les identifiants enregistrés, et utilisez le même appareil sur vos téléphones et vos ordinateurs. Lisez les stratégies de sauvegarde et de récupération avant de vous reposer sur un seul appareil, les passkeys liées au matériel ne pouvant pas être copiées.",
+    "description": "The generated-index page description for category 'Passkeys' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.OTP Authenticator": {
+    "message": "Authentificateur OTP",
+    "description": "The label for category 'OTP Authenticator' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.OTP Authenticator.link.generated-index.title": {
+    "message": "L'authentificateur OTP de la Seedkeeper PRO",
+    "description": "The generated-index page title for category 'OTP Authenticator' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.OTP Authenticator.link.generated-index.description": {
+    "message": "Générez vos codes TOTP à deux facteurs depuis votre carte ou votre bague plutôt que depuis une application de téléphone. Ajoutez des comptes par QR code, protégez-les avec un PIN d'accès, gérez les entrées existantes, et découvrez ce qu'un second appareil peut restaurer et ce qu'il ne peut pas.",
+    "description": "The generated-index page description for category 'OTP Authenticator' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Tutorials": {
+    "message": "Tutoriels",
+    "description": "The label for category 'Tutorials' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Tutorials.link.generated-index.title": {
+    "message": "Tutoriels passkeys et 2FA, service par service",
+    "description": "The generated-index page title for category 'Tutorials' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Tutorials.link.generated-index.description": {
+    "message": "Des guides pas à pas pour sécuriser vos comptes avec une Seedkeeper PRO : des passkeys là où le service les prend en charge, des codes TOTP partout ailleurs. Google, Microsoft, Amazon, PayPal, GitHub, Dropbox et bien d'autres, répartis entre boutiques en ligne, réseaux sociaux, finance, productivité et outils de confidentialité.",
+    "description": "The generated-index page description for category 'Tutorials' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Google": {
+    "message": "Google",
+    "description": "The label for category 'Google' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Google.link.generated-index.title": {
+    "message": "Tutoriels passkeys et 2FA pour Google",
+    "description": "The generated-index page title for category 'Google' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Google.link.generated-index.description": {
+    "message": "Sécurisez votre compte Google avec une Seedkeeper PRO : enregistrez une passkey matérielle, activez la 2FA par TOTP, et faites de la passkey votre méthode de connexion par défaut.",
+    "description": "The generated-index page description for category 'Google' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Microsoft": {
+    "message": "Microsoft",
+    "description": "The label for category 'Microsoft' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Microsoft.link.generated-index.title": {
+    "message": "Tutoriels passkeys pour Microsoft et Outlook",
+    "description": "The generated-index page title for category 'Microsoft' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Microsoft.link.generated-index.description": {
+    "message": "Sécurisez votre compte Microsoft avec une Seedkeeper PRO : enregistrez une passkey sur Outlook, activez la 2FA par TOTP, passez entièrement sans mot de passe, ou enregistrez une clé FIDO2 sur un compte professionnel Entra ID.",
+    "description": "The generated-index page description for category 'Microsoft' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Webshop": {
+    "message": "Boutiques en ligne",
+    "description": "The label for category 'Webshop' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Webshop.link.generated-index.title": {
+    "message": "Tutoriels passkeys pour les boutiques en ligne",
+    "description": "The generated-index page title for category 'Webshop' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Webshop.link.generated-index.description": {
+    "message": "Sécurisez vos comptes d'achat en ligne avec une clé matérielle Seedkeeper PRO - Amazon, eBay et Shopify - et avec la 2FA par TOTP là où les clés matérielles ne sont pas encore proposées.",
+    "description": "The generated-index page description for category 'Webshop' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Social Media": {
+    "message": "Réseaux sociaux",
+    "description": "The label for category 'Social Media' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Social Media.link.generated-index.title": {
+    "message": "Tutoriels passkeys pour les réseaux sociaux",
+    "description": "The generated-index page title for category 'Social Media' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Social Media.link.generated-index.description": {
+    "message": "Sécurisez vos comptes de réseaux sociaux avec une clé matérielle Seedkeeper PRO : TikTok, Facebook et Messenger, Telegram Desktop. Et pourquoi la fonction « clé d'accès » de WhatsApp est autre chose.",
+    "description": "The generated-index page description for category 'Social Media' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Financial": {
+    "message": "Finance",
+    "description": "The label for category 'Financial' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Financial.link.generated-index.title": {
+    "message": "Tutoriels passkeys pour vos comptes financiers",
+    "description": "The generated-index page title for category 'Financial' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Financial.link.generated-index.description": {
+    "message": "Sécurisez les comptes qui détiennent votre argent avec une clé matérielle Seedkeeper PRO - PayPal, Binance et Kraken - sans qu'aucune copie de vos identifiants ne réside dans un cloud.",
+    "description": "The generated-index page description for category 'Financial' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Productivity": {
+    "message": "Productivité",
+    "description": "The label for category 'Productivity' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Productivity.link.generated-index.title": {
+    "message": "Tutoriels passkeys pour vos outils de travail",
+    "description": "The generated-index page title for category 'Productivity' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Productivity.link.generated-index.description": {
+    "message": "Sécurisez vos comptes professionnels avec une clé matérielle Seedkeeper PRO - Dropbox, GitHub et OpenAI - en tenant compte de ce qu'exigent les comptes d'équipe et d'entreprise.",
+    "description": "The generated-index page description for category 'Productivity' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Privacy & Security Tools": {
+    "message": "Confidentialité et sécurité",
+    "description": "The label for category 'Privacy & Security Tools' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Privacy & Security Tools.link.generated-index.title": {
+    "message": "Tutoriels pour vos outils de confidentialité et de sécurité",
+    "description": "The generated-index page title for category 'Privacy & Security Tools' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Privacy & Security Tools.link.generated-index.description": {
+    "message": "Protégez les outils qui protègent tout le reste avec une Seedkeeper PRO : connectez-vous à Bitwarden sans mot de passe maître, ajoutez une clé de sécurité à votre compte Proton, et servez-vous de votre appareil pour SSH, la connexion Linux et le déverrouillage LUKS.",
+    "description": "The generated-index page description for category 'Privacy & Security Tools' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Security Academy": {
+    "message": "Security Academy",
+    "description": "The label for category 'Security Academy' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Security Academy.link.generated-index.title": {
+    "message": "Security Academy",
+    "description": "The generated-index page title for category 'Security Academy' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Security Academy.link.generated-index.description": {
+    "message": "Les principes derrière ces produits, expliqués simplement et sans jargon : comment les mots de passe sont réellement cassés, ce qu'est une passkey et pourquoi elle ne peut pas être hameçonnée, comment fonctionne la 2FA et où elle s'arrête, et ce qu'encode réellement une seed phrase. Aucune connaissance préalable n'est nécessaire.",
+    "description": "The generated-index page description for category 'Security Academy' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Password Security": {
+    "message": "Sécurité des mots de passe",
+    "description": "The label for category 'Password Security' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Password Security.link.generated-index.title": {
+    "message": "Comprendre la sécurité des mots de passe",
+    "description": "The generated-index page title for category 'Password Security' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Password Security.link.generated-index.description": {
+    "message": "Comment fonctionne réellement un mot de passe, ce qui en fait un mot de passe solide, pourquoi la réutilisation est l'habitude la plus dommageable en sécurité personnelle, et comment les attaquants entrent en pratique. Commencez par Qu'est-ce qu'un mot de passe ? pour les bases, puis Les attaques courantes contre les mots de passe pour savoir contre quoi vous vous défendez.",
+    "description": "The generated-index page description for category 'Password Security' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.academy-passkeys": {
+    "message": "Passkeys",
+    "description": "The label for category 'Passkeys' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.academy-passkeys.link.generated-index.title": {
+    "message": "Comprendre les passkeys",
+    "description": "The generated-index page title for category 'Passkeys' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.academy-passkeys.link.generated-index.description": {
+    "message": "Tout ce qu'il faut pour comprendre les passkeys : ce qu'elles sont, comment elles fonctionnent, les standards FIDO2 et WebAuthn qui les portent, et ce qui les distingue des mots de passe et des codes à usage unique. Commencez par Qu'est-ce qu'une passkey ? pour la vue d'ensemble, puis Comment fonctionnent les passkeys pour les mécanismes.",
+    "description": "The generated-index page description for category 'Passkeys' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Authentication": {
+    "message": "Authentification",
+    "description": "The label for category 'Authentication' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Authentication.link.generated-index.title": {
+    "message": "Comprendre l'authentification",
+    "description": "The generated-index page title for category 'Authentication' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Authentication.link.generated-index.description": {
+    "message": "Qu'est-ce qui prouve réellement que vous êtes bien vous en ligne ? Les trois catégories de facteurs d'authentification, la différence entre MFA et 2FA, et le fonctionnement des codes à usage unique. Commencez par Les facteurs d'authentification expliqués, puis comparez les seconds facteurs qu'on vous proposera.",
+    "description": "The generated-index page description for category 'Authentication' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Seed Phrases": {
+    "message": "Seed phrases",
+    "description": "The label for category 'Seed Phrases' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Seed Phrases.link.generated-index.title": {
+    "message": "Comprendre les seed phrases",
+    "description": "The generated-index page title for category 'Seed Phrases' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Seed Phrases.link.generated-index.description": {
+    "message": "Les 12 ou 24 mots derrière chaque portefeuille crypto en auto-conservation : ce qu'ils sont réellement, comment BIP39 transforme du hasard en mots lisibles, comment les conserver de façon à survivre au feu comme au vol, et la poignée d'erreurs à l'origine de presque toutes les pertes.",
+    "description": "The generated-index page description for category 'Seed Phrases' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Security Guides": {
+    "message": "Guides de sécurité",
+    "description": "The label for category 'Security Guides' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Security Guides.link.generated-index.title": {
+    "message": "Guides de sécurité pratiques",
+    "description": "The generated-index page title for category 'Security Guides' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Security Guides.link.generated-index.description": {
+    "message": "Des marches à suivre plutôt que des explications : quoi faire concrètement, dans quel ordre, pour vos comptes, votre téléphone, votre famille, votre crypto ou votre entreprise. Commencez par la Liste de contrôle sécurité pour débutants, ou par Sécurisez votre vie numérique en 30 minutes si vous voulez des résultats en une seule séance.",
+    "description": "The generated-index page description for category 'Security Guides' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Developers": {
+    "message": "Développeurs",
+    "description": "The label for category 'Developers' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Developers.link.generated-index.title": {
+    "message": "Documentation développeurs",
+    "description": "The generated-index page title for category 'Developers' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Developers.link.generated-index.description": {
+    "message": "La Seedkeeper PRO est un authentificateur FIDO2 CTAP2.1 : accepter les passkeys demande donc WebAuthn standard et aucun code propriétaire. Voir Device Capabilities pour le profil technique complet, WebAuthn Quickstart pour ajouter la prise en charge des passkeys, ou la bibliothèque Python si vous provisionnez du matériel.",
+    "description": "The generated-index page description for category 'Developers' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Business": {
+    "message": "Entreprises",
+    "description": "The label for category 'Business' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Business.link.generated-index.title": {
+    "message": "Seedkeeper pour les organisations",
+    "description": "The generated-index page title for category 'Business' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Business.link.generated-index.description": {
+    "message": "Une authentification résistante au phishing pour les entreprises sans équipe sécurité : l'argumentaire, un plan de déploiement qui survit aux utilisateurs, le provisionnement à l'échelle, le cycle de vie des collaborateurs, et ce que NIS2 comme votre auditeur attendent réellement. Commencez par Pourquoi des clés matérielles pour votre entreprise.",
+    "description": "The generated-index page description for category 'Business' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Troubleshooting": {
+    "message": "Dépannage",
+    "description": "The label for category 'Troubleshooting' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Troubleshooting.link.generated-index.title": {
+    "message": "Dépannage",
+    "description": "The generated-index page title for category 'Troubleshooting' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Troubleshooting.link.generated-index.description": {
+    "message": "Quelque chose ne fonctionne pas. Commencez par Problèmes de connexion et NFC si l'appareil n'est pas détecté, par Problèmes de PIN et verrouillages si vous ne pouvez plus y accéder, ou par Appareil perdu ou volé s'il a disparu. Chaque page traite d'abord les causes probables et dit clairement ce qui est récupérable et ce qui ne l'est pas.",
+    "description": "The generated-index page description for category 'Troubleshooting' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Glossary": {
+    "message": "Glossaire",
+    "description": "The label for category 'Glossary' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Glossary.link.generated-index.title": {
+    "message": "Glossaire",
+    "description": "The generated-index page title for category 'Glossary' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Glossary.link.generated-index.description": {
+    "message": "Définitions courtes de tous les termes techniques employés dans cette documentation : passkeys, FIDO2, TOTP, seed phrases, secure elements et le reste. Chaque entrée renvoie vers l'article qui l'explique en détail.",
+    "description": "The generated-index page description for category 'Glossary' in sidebar 'tutorialSidebar'"
+  }
+}

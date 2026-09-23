@@ -1,0 +1,54 @@
+{
+  "link.title.Shop": {
+    "message": "Boutique",
+    "description": "The title of the footer links column with title=Shop in the footer"
+  },
+  "link.title.Community": {
+    "message": "Communauté",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.Legal": {
+    "message": "Légal",
+    "description": "The title of the footer links column with title=Legal in the footer"
+  },
+  "link.item.label.Buy a Seedkeeper Classic": {
+    "message": "Acheter une Seedkeeper Classic",
+    "description": "The label of footer link with label=Buy a Seedkeeper Classic linking to https://seedkeeper.io/shop"
+  },
+  "link.item.label.Buy a Seedkeeper PRO": {
+    "message": "Acheter une Seedkeeper PRO",
+    "description": "The label of footer link with label=Buy a Seedkeeper PRO linking to https://seedkeeper.io/shop"
+  },
+  "link.item.label.Compare the products": {
+    "message": "Comparer les produits",
+    "description": "The label of footer link with label=Compare the products linking to https://seedkeeper.io/seedkeeper-classic-vs-pro"
+  },
+  "link.item.label.X": {
+    "message": "X",
+    "description": "The label of footer link with label=X linking to https://x.com/seedkeeper_io"
+  },
+  "link.item.label.Telegram": {
+    "message": "Telegram",
+    "description": "The label of footer link with label=Telegram linking to https://t.me/Satochip"
+  },
+  "link.item.label.Github": {
+    "message": "Github",
+    "description": "The label of footer link with label=Github linking to https://github.com/Toporin"
+  },
+  "link.item.label.Privacy Policy": {
+    "message": "Politique de confidentialité",
+    "description": "The label of footer link with label=Privacy Policy linking to https://seedkeeper.io/privacy-policy"
+  },
+  "link.item.label.Terms and Conditions": {
+    "message": "Conditions générales",
+    "description": "The label of footer link with label=Terms and Conditions linking to https://seedkeeper.io/terms-and-conditions"
+  },
+  "link.item.label.Refund and Return Policy": {
+    "message": "Politique de remboursement et de retour",
+    "description": "The label of footer link with label=Refund and Return Policy linking to https://seedkeeper.io/refund-and-return-policy"
+  },
+  "copyright": {
+    "message": "Tous droits réservés – Satochip ® S.R.L. - 2026<br />Société établie en Belgique, immatriculée sous le numéro BE0770730524",
+    "description": "The footer copyright"
+  }
+}

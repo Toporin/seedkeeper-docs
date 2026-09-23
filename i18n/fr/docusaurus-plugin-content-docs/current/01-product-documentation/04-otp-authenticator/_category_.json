@@ -1,0 +1,9 @@
+{
+  "label": "OTP Authenticator",
+  "link": {
+    "type": "generated-index",
+    "title": "OTP Authenticator on Seedkeeper PRO",
+    "description": "Generate TOTP two-factor codes from your card or ring instead of an app on your phone. Add accounts by QR code, protect them with an access PIN, manage existing entries, and understand what a second device does and does not restore.",
+    "keywords": ["hardware TOTP", "authenticator app alternative", "TOTP secure element", "2FA hardware key", "Seedkeeper PRO OTP"]
+  }
+}

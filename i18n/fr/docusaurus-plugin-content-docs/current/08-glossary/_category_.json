@@ -1,0 +1,9 @@
+{
+  "label": "Glossary",
+  "link": {
+    "type": "generated-index",
+    "title": "Glossary",
+    "description": "Short definitions of every technical term used across this documentation - passkeys, FIDO2, TOTP, seed phrases, secure elements and the rest. Each entry links to the article that explains it properly.",
+    "keywords": ["security glossary", "passkey definition", "FIDO2 meaning", "TOTP definition", "seed phrase meaning", "authentication terms"]
+  }
+}

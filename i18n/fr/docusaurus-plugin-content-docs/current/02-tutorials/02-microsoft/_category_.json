@@ -1,0 +1,14 @@
+{
+  "label": "Microsoft",
+  "link": {
+    "type": "generated-index",
+    "title": "Microsoft and Outlook Passkey Tutorials",
+    "description": "Secure your Microsoft account with a Seedkeeper PRO: register a passkey on Outlook, add TOTP two-factor authentication, go fully passwordless, or register a FIDO2 key on a work Entra ID account.",
+    "keywords": [
+      "outlook passkey",
+      "microsoft passkey",
+      "entra ID FIDO2",
+      "microsoft passwordless account"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "label": "Developers",
+  "link": {
+    "type": "generated-index",
+    "title": "Developer Documentation",
+    "description": "Seedkeeper PRO is a FIDO2 CTAP2.1 authenticator, so accepting passkeys needs standard WebAuthn and no vendor code. Start with Device Capabilities for the full technical profile, WebAuthn Quickstart to add passkey support, or the Python library if you are provisioning hardware.",
+    "keywords": ["FIDO2 developer", "WebAuthn integration", "CTAP2.1 authenticator", "AAGUID", "hardware security key API", "open source security key"]
+  }
+}

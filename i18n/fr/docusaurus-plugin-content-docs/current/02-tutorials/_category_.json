@@ -1,0 +1,15 @@
+{
+  "label": "Tutorials",
+  "link": {
+    "type": "generated-index",
+    "title": "Passkey and 2FA Tutorials",
+    "description": "Step-by-step guides for securing your accounts with a Seedkeeper PRO - passkeys where the service supports them, TOTP codes everywhere else. Covering Google, Microsoft, Amazon, PayPal, GitHub, Dropbox and more, across webshops, social media, financial services, productivity tools and privacy tools.",
+    "keywords": [
+      "passkey tutorials",
+      "which services support passkeys",
+      "hardware security key setup",
+      "FIDO2 tutorials",
+      "2FA setup guides"
+    ]
+  }
+}

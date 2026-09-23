@@ -1,0 +1,10 @@
+{
+  "label": "Passkeys",
+  "key": "academy-passkeys",
+  "link": {
+    "type": "generated-index",
+    "title": "Passkeys Explained",
+    "description": "Everything you need to understand passkeys: what they are, how they work, the FIDO2 and WebAuthn standards behind them, and how they compare with passwords and one-time codes. Start with What is a Passkey? for the overview, then How Passkeys Work for the mechanics.",
+    "keywords": ["passkeys", "passkey guide", "what is a passkey", "FIDO2", "WebAuthn", "passwordless authentication"]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "label": "Google",
+  "link": {
+    "type": "generated-index",
+    "title": "Google Passkey and 2FA Tutorials",
+    "description": "Secure your Google Account with a Seedkeeper PRO: register a hardware passkey, add TOTP two-factor authentication, and make the passkey your default sign-in method.",
+    "keywords": [
+      "google passkey",
+      "google security key",
+      "google 2FA",
+      "google passwordless"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "label": "Password Security",
+  "link": {
+    "type": "generated-index",
+    "title": "Password Security Explained",
+    "description": "How passwords actually work, what makes one strong, why reuse is the single most damaging habit in personal security, and how attackers really break in. Start with What is a Password? for the fundamentals, then Common Password Attacks to see what you are defending against.",
+    "keywords": ["password security", "strong password", "password attacks", "credential stuffing", "password manager", "phishing"]
+  }
+}

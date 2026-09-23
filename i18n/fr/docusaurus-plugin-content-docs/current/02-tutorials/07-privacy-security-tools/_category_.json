@@ -1,0 +1,13 @@
+{
+  "label": "Privacy & Security Tools",
+  "link": {
+    "type": "generated-index",
+    "title": "Privacy and Security Tool Tutorials",
+    "description": "Secure the tools that protect everything else with a Seedkeeper PRO - log in to Bitwarden without your master password, and add a hardware security key to your Proton account.",
+    "keywords": [
+      "bitwarden passkey",
+      "proton passkey",
+      "password manager security key"
+    ]
+  }
+}
