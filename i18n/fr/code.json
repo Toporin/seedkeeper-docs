@@ -44,7 +44,7 @@
     "description": "The label of the link targeting the tag list page"
   },
   "theme.colorToggle.ariaLabel.mode.system": {
-    "message": "system mode",
+    "message": "mode système",
     "description": "The name for the system color mode"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
@@ -239,15 +239,15 @@
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.navAriaLabel": {
-    "message": "Docs sidebar",
+    "message": "Barre latérale de la documentation",
     "description": "The ARIA label for the sidebar navigation"
   },
   "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
-    "message": "Expand the dropdown",
+    "message": "Déplier le menu",
     "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
   },
   "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
-    "message": "Collapse the dropdown",
+    "message": "Replier le menu",
     "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
@@ -271,38 +271,38 @@
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.SearchBar.noResultsText": {
-    "message": "No results"
+    "message": "Aucun résultat"
   },
   "theme.SearchBar.seeAllOutsideContext": {
-    "message": "See all results outside \"{context}\""
+    "message": "Voir tous les résultats hors de « {context} »"
   },
   "theme.SearchBar.searchInContext": {
-    "message": "See all results within \"{context}\""
+    "message": "Voir tous les résultats dans « {context} »"
   },
   "theme.SearchBar.seeAll": {
-    "message": "See all results"
+    "message": "Voir tous les résultats"
   },
   "theme.SearchBar.label": {
-    "message": "Search",
+    "message": "Rechercher",
     "description": "The ARIA label and placeholder for search button"
   },
   "theme.SearchPage.existingResultsTitle": {
-    "message": "Search results for \"{query}\"",
+    "message": "Résultats de recherche pour « {query} »",
     "description": "The search page title for non-empty query"
   },
   "theme.SearchPage.emptyResultsTitle": {
-    "message": "Search the documentation",
+    "message": "Rechercher dans la documentation",
     "description": "The search page title for empty query"
   },
   "theme.SearchPage.searchContext.everywhere": {
-    "message": "Everywhere"
+    "message": "Partout"
   },
   "theme.SearchPage.documentsFound.plurals": {
-    "message": "1 document found|{count} documents found",
+    "message": "1 document trouvé|{count} documents trouvés",
     "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.SearchPage.noResultsText": {
-    "message": "No documents were found",
+    "message": "Aucun document trouvé",
     "description": "The paragraph for empty search result"
   },
   "theme.blog.post.plurals": {
@@ -338,11 +338,11 @@
     "description": "The unlisted content banner message"
   },
   "theme.contentVisibility.draftBanner.title": {
-    "message": "Draft page",
+    "message": "Page en brouillon",
     "description": "The draft content banner title"
   },
   "theme.contentVisibility.draftBanner.message": {
-    "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
+    "message": "Cette page est un brouillon. Elle ne sera visible qu'en développement et sera exclue de la compilation de production.",
     "description": "The draft content banner message"
   },
   "theme.docs.DocCard.categoryDescription.plurals": {
@@ -362,23 +362,23 @@
     "description": "The title of the tag list page"
   },
   "home.schema.description": {
-    "message": "Documentation for Seedkeeper and Seedkeeper PRO hardware security devices: setup, password manager, passkeys, OTP codes, and the security concepts behind them.",
+    "message": "Documentation des appareils de sécurité matériels Seedkeeper et Seedkeeper PRO : configuration, gestionnaire de mots de passe, passkeys, codes OTP, et les principes de sécurité qui les sous-tendent.",
     "description": "JSON-LD site description for search engines"
   },
   "home.entry.gettingStarted.label": {
-    "message": "Getting Started",
+    "message": "Pour commencer",
     "description": "Entry card label - Getting Started"
   },
   "home.entry.gettingStarted.title": {
-    "message": "You have a device in hand",
+    "message": "Vous avez l'appareil en main",
     "description": "Entry card title - Getting Started"
   },
   "home.entry.gettingStarted.body": {
-    "message": "Install the app, scan your card or ring, choose a PIN, and set up a backup before you store anything real.",
+    "message": "Installez l'application, scannez votre carte ou votre bague, choisissez un PIN, et configurez une sauvegarde avant d'y enregistrer quoi que ce soit de réel.",
     "description": "Entry card body - Getting Started"
   },
   "home.entry.gettingStarted.cta": {
-    "message": "Set up your Seedkeeper",
+    "message": "Configurer votre Seedkeeper",
     "description": "Entry card call to action - Getting Started"
   },
   "home.entry.academy.label": {
@@ -386,107 +386,107 @@
     "description": "Entry card label - Security Academy"
   },
   "home.entry.academy.title": {
-    "message": "You want to understand the why",
+    "message": "Vous voulez comprendre pourquoi",
     "description": "Entry card title - Security Academy"
   },
   "home.entry.academy.body": {
-    "message": "What a passkey actually is, why one-time codes can still be phished, how a seed phrase works. No prior knowledge assumed.",
+    "message": "Ce qu'est réellement une passkey, pourquoi un code à usage unique reste hameçonnable, comment fonctionne une seed phrase. Aucune connaissance préalable n'est supposée.",
     "description": "Entry card body - Security Academy"
   },
   "home.entry.academy.cta": {
-    "message": "Start with passkeys",
+    "message": "Commencer par les passkeys",
     "description": "Entry card call to action - Security Academy"
   },
   "home.entry.tutorials.label": {
-    "message": "Tutorials",
+    "message": "Tutoriels",
     "description": "Entry card label - Tutorials"
   },
   "home.entry.tutorials.title": {
-    "message": "You want to secure one service",
+    "message": "Vous voulez sécuriser un service",
     "description": "Entry card title - Tutorials"
   },
   "home.entry.tutorials.body": {
-    "message": "Step-by-step guides for Google, Microsoft, Amazon, PayPal, GitHub and twenty more - passkeys where they exist, TOTP everywhere else.",
+    "message": "Des guides pas à pas pour Google, Microsoft, Amazon, PayPal, GitHub et vingt autres - des passkeys là où elles existent, du TOTP partout ailleurs.",
     "description": "Entry card body - Tutorials"
   },
   "home.entry.tutorials.cta": {
-    "message": "Find your service",
+    "message": "Trouver votre service",
     "description": "Entry card call to action - Tutorials"
   },
   "home.entry.business.label": {
-    "message": "Business",
+    "message": "Entreprises",
     "description": "Entry card label - Business"
   },
   "home.entry.business.title": {
-    "message": "You are deciding for a team",
+    "message": "Vous décidez pour une équipe",
     "description": "Entry card title - Business"
   },
   "home.entry.business.body": {
-    "message": "The case for phishing-resistant hardware, a rollout plan that survives real users, and what NIS2 expects of authentication.",
+    "message": "L'argumentaire pour du matériel résistant au phishing, un plan de déploiement qui survit aux vrais utilisateurs, et ce que NIS2 attend de l'authentification.",
     "description": "Entry card body - Business"
   },
   "home.entry.business.cta": {
-    "message": "Read the business case",
+    "message": "Lire l'argumentaire",
     "description": "Entry card call to action - Business"
   },
   "home.secondary.securityGuides": {
-    "message": "Security Guides",
+    "message": "Guides de sécurité",
     "description": "Secondary link - Security Guides"
   },
   "home.secondary.troubleshooting": {
-    "message": "Troubleshooting",
+    "message": "Dépannage",
     "description": "Secondary link - Troubleshooting"
   },
   "home.secondary.developers": {
-    "message": "Developers",
+    "message": "Développeurs",
     "description": "Secondary link - Developers"
   },
   "home.secondary.glossary": {
-    "message": "Glossary",
+    "message": "Glossaire",
     "description": "Secondary link - Glossary"
   },
   "home.meta.title": {
-    "message": "Seedkeeper Documentation - Passkeys, Passwords and 2FA on Hardware",
+    "message": "Documentation Seedkeeper - Passkeys, mots de passe et 2FA sur matériel",
     "description": "Homepage browser tab title and meta title"
   },
   "home.meta.description": {
-    "message": "Official documentation for Seedkeeper and Seedkeeper PRO: device setup, password manager, FIDO2 passkeys, TOTP codes, service tutorials and the security concepts behind them.",
+    "message": "Documentation officielle de Seedkeeper et Seedkeeper PRO : configuration de l'appareil, gestionnaire de mots de passe, passkeys FIDO2, codes TOTP, tutoriels par service et principes de sécurité.",
     "description": "Homepage meta description"
   },
   "home.meta.keywords": {
-    "message": "Seedkeeper, Seedkeeper PRO, hardware security key, FIDO2, passkeys, TOTP, password manager, seed phrase, NFC security key, Satochip",
+    "message": "Seedkeeper, Seedkeeper PRO, clé de sécurité matérielle, FIDO2, passkeys, TOTP, gestionnaire de mots de passe, seed phrase, clé de sécurité NFC, Satochip",
     "description": "Homepage meta keywords, comma separated"
   },
   "home.hero.title": {
-    "message": "Seedkeeper Documentation",
+    "message": "Documentation Seedkeeper",
     "description": "Homepage main heading"
   },
   "home.hero.tagline": {
-    "message": "Passwords, FIDO2 passkeys and one-time codes on a card or a ring - stored on an EAL6+ certified secure element, with no cloud and no account. Whatever brought you here, start below.",
+    "message": "Mots de passe, passkeys FIDO2 et codes à usage unique sur une carte ou une bague - conservés sur un secure element certifié EAL6+, sans cloud et sans compte. Quelle que soit la raison de votre venue, commencez ci-dessous.",
     "description": "Homepage tagline under the main heading"
   },
   "home.grid.ariaLabel": {
-    "message": "Where to start",
+    "message": "Par où commencer",
     "description": "Accessible label for the entry card grid"
   },
   "home.secondary.ariaLabel": {
-    "message": "Other sections",
+    "message": "Autres sections",
     "description": "Accessible label for the secondary link list"
   },
   "home.secondary.label": {
-    "message": "Also here",
+    "message": "Également ici",
     "description": "Heading above the secondary link list"
   },
   "home.cta.heading": {
-    "message": "Don't have one yet?",
+    "message": "Vous n'en avez pas encore ?",
     "description": "Homepage shop call to action heading"
   },
   "home.cta.body": {
-    "message": "Seedkeeper PRO stores your passwords, your TOTP codes and passkeys on a single certified secure element. No subscription, no account, and nothing about your credentials passes through us.",
+    "message": "Seedkeeper PRO conserve vos mots de passe, vos codes TOTP et vos passkeys sur un unique secure element certifié. Sans abonnement, sans compte, et rien de vos identifiants ne transite par nous.",
     "description": "Homepage shop call to action body"
   },
   "home.cta.button": {
-    "message": "Get your Seedkeeper",
+    "message": "Commander une Seedkeeper",
     "description": "Homepage shop button label"
   }
 }
