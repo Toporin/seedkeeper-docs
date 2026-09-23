@@ -95,18 +95,18 @@ No. Adding a passkey doesn't remove or change any existing sign-in or recovery m
 
 </details>
 
-## Official Google Resources
-
-- [The easiest and most secure way to log in to your accounts without a password](https://safety.google/safety/authentication/passkey/)
-- [Sign in with a passkey instead of a password](https://support.google.com/accounts/answer/13548313?hl=en#zippy=%2Ccreate-a-passkey-on-the-phone-or-computer-youre-on%2Ccreate-a-passkey-on-a-security-key)
-- [Use passwords & passkeys across your devices](https://support.google.com/accounts/answer/6197437?hl=en&co=GENIE.Platform%3DAndroid)
-
 <details>
 <summary>Why register a Seedkeeper PRO instead of my phone's built-in passkey?</summary>
 
 Because the key never leaves the device and is not copied anywhere. A synced passkey lives in a provider's cloud and is only as safe as your account with them; a Seedkeeper PRO passkey is generated inside an EAL6+ secure element and physically cannot be extracted. It also works on computers that aren't yours, which a phone-bound passkey does not. See [Not All Passkeys Are Stored the Same Way](/docs/security-academy/passkeys/passkey-vs-password#not-all-passkeys-are-stored-the-same-way).
 
 </details>
+
+## Official Google Resources
+
+- [The easiest and most secure way to log in to your accounts without a password](https://safety.google/safety/authentication/passkey/)
+- [Sign in with a passkey instead of a password](https://support.google.com/accounts/answer/13548313?hl=en#zippy=%2Ccreate-a-passkey-on-the-phone-or-computer-youre-on%2Ccreate-a-passkey-on-a-security-key)
+- [Use passwords & passkeys across your devices](https://support.google.com/accounts/answer/6197437?hl=en&co=GENIE.Platform%3DAndroid)
 
 ## Related Articles
 

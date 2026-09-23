@@ -111,7 +111,7 @@ Have a Seedkeeper PRO card or ring and want to manage passkeys and OTP codes too
 <div class="download-row">
 
 <a href="https://apps.apple.com/us/app/seedkeeper-authenticator/id6791186520"><img src="/img/badges/app-store-badge.svg" alt="Download on the App Store" className="store-badge" /></a>
-<img src="/img/badges/google-play-badge.png" alt="Coming soon on Google Play" className="store-badge" style={{opacity: 0.45}} title="Coming soon" />
+<a href="https://play.google.com/store/apps/details?id=io.seedkeeper.pro"><img src="/img/badges/google-play-badge.png" alt="Get it on Google Play" className="store-badge" /></a>
 
 </div>
 

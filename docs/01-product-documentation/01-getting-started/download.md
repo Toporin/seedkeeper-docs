@@ -51,14 +51,10 @@ The desktop equivalent of the Seedkeeper App is the **Satochip-Utils App**. It w
 
 *Passkeys and OTP.* Requires a Seedkeeper PRO device. Adds passkey and OTP/TOTP management on top of what the Seedkeeper App already covers.
 
-:::note[Android version coming soon]
-The Seedkeeper PRO App is available on iOS and desktop today. The Android build is on its way - in the meantime, Android users can manage passwords with the Seedkeeper App, and use passkeys directly through the browser with no app involved.
-:::
-
 <div class="download-row">
 
 <a href="https://apps.apple.com/us/app/seedkeeper-authenticator/id6791186520"><img src="/img/badges/app-store-badge.svg" alt="Download on the App Store" className="store-badge" /></a>
-<img src="/img/badges/google-play-badge.png" alt="Coming soon on Google Play" className="store-badge" style={{opacity: 0.45}} title="Coming soon" />
+<a href="https://play.google.com/store/apps/details?id=io.seedkeeper.pro"><img src="/img/badges/google-play-badge.png" alt="Get it on Google Play" className="store-badge" /></a>
 
 </div>
 

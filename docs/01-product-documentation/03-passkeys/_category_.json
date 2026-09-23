@@ -1,5 +1,6 @@
 {
   "label": "Passkeys",
+  "key": "product-passkeys",
   "link": {
     "type": "generated-index",
     "title": "Passkeys on Seedkeeper PRO",

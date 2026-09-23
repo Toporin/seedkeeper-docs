@@ -1,5 +1,6 @@
 {
   "label": "Passkeys",
+  "key": "academy-passkeys",
   "link": {
     "type": "generated-index",
     "title": "Passkeys Explained",

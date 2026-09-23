@@ -39,10 +39,20 @@ const config = {
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+i18n: {
+  defaultLocale: 'en',
+  locales: ['en', 'fr'],
+  localeConfigs: {
+    en: {
+      label: 'English',
+      htmlLang: 'en',
+    },
+    fr: {
+      label: 'Français',
+      htmlLang: 'fr-FR',
+    },
   },
+},
 
 plugins: [
   [
@@ -126,6 +136,22 @@ Key facts: Seedkeeper PRO is FIDO2 Level 1 certified (certificate FA001202600016
       }),
     ],
   ],
+  
+themes: [
+    [
+      '@easyops-cn/docusaurus-search-local',
+      {
+        hashed: true,
+        indexDocs: true,
+        indexBlog: false,
+        indexPages: true,
+        docsRouteBasePath: '/docs',
+        highlightSearchTermsOnTargetPage: true,
+        searchResultLimits: 8,
+        searchResultContextMaxLength: 50,
+      },
+    ],
+  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -157,6 +183,10 @@ Key facts: Seedkeeper PRO is FIDO2 Level 1 certified (certificate FA001202600016
 			className: 'navbar-shop-button',
 			target: '_blank',
           },
+		  {
+			type: 'localeDropdown',
+			position: 'right',
+		  },
         ],
       },
       footer: {
