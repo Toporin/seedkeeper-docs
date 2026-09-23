@@ -360,5 +360,133 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "home.schema.description": {
+    "message": "Documentation for Seedkeeper and Seedkeeper PRO hardware security devices: setup, password manager, passkeys, OTP codes, and the security concepts behind them.",
+    "description": "JSON-LD site description for search engines"
+  },
+  "home.entry.gettingStarted.label": {
+    "message": "Getting Started",
+    "description": "Entry card label - Getting Started"
+  },
+  "home.entry.gettingStarted.title": {
+    "message": "You have a device in hand",
+    "description": "Entry card title - Getting Started"
+  },
+  "home.entry.gettingStarted.body": {
+    "message": "Install the app, scan your card or ring, choose a PIN, and set up a backup before you store anything real.",
+    "description": "Entry card body - Getting Started"
+  },
+  "home.entry.gettingStarted.cta": {
+    "message": "Set up your Seedkeeper",
+    "description": "Entry card call to action - Getting Started"
+  },
+  "home.entry.academy.label": {
+    "message": "Security Academy",
+    "description": "Entry card label - Security Academy"
+  },
+  "home.entry.academy.title": {
+    "message": "You want to understand the why",
+    "description": "Entry card title - Security Academy"
+  },
+  "home.entry.academy.body": {
+    "message": "What a passkey actually is, why one-time codes can still be phished, how a seed phrase works. No prior knowledge assumed.",
+    "description": "Entry card body - Security Academy"
+  },
+  "home.entry.academy.cta": {
+    "message": "Start with passkeys",
+    "description": "Entry card call to action - Security Academy"
+  },
+  "home.entry.tutorials.label": {
+    "message": "Tutorials",
+    "description": "Entry card label - Tutorials"
+  },
+  "home.entry.tutorials.title": {
+    "message": "You want to secure one service",
+    "description": "Entry card title - Tutorials"
+  },
+  "home.entry.tutorials.body": {
+    "message": "Step-by-step guides for Google, Microsoft, Amazon, PayPal, GitHub and twenty more - passkeys where they exist, TOTP everywhere else.",
+    "description": "Entry card body - Tutorials"
+  },
+  "home.entry.tutorials.cta": {
+    "message": "Find your service",
+    "description": "Entry card call to action - Tutorials"
+  },
+  "home.entry.business.label": {
+    "message": "Business",
+    "description": "Entry card label - Business"
+  },
+  "home.entry.business.title": {
+    "message": "You are deciding for a team",
+    "description": "Entry card title - Business"
+  },
+  "home.entry.business.body": {
+    "message": "The case for phishing-resistant hardware, a rollout plan that survives real users, and what NIS2 expects of authentication.",
+    "description": "Entry card body - Business"
+  },
+  "home.entry.business.cta": {
+    "message": "Read the business case",
+    "description": "Entry card call to action - Business"
+  },
+  "home.secondary.securityGuides": {
+    "message": "Security Guides",
+    "description": "Secondary link - Security Guides"
+  },
+  "home.secondary.troubleshooting": {
+    "message": "Troubleshooting",
+    "description": "Secondary link - Troubleshooting"
+  },
+  "home.secondary.developers": {
+    "message": "Developers",
+    "description": "Secondary link - Developers"
+  },
+  "home.secondary.glossary": {
+    "message": "Glossary",
+    "description": "Secondary link - Glossary"
+  },
+  "home.meta.title": {
+    "message": "Seedkeeper Documentation - Passkeys, Passwords and 2FA on Hardware",
+    "description": "Homepage browser tab title and meta title"
+  },
+  "home.meta.description": {
+    "message": "Official documentation for Seedkeeper and Seedkeeper PRO: device setup, password manager, FIDO2 passkeys, TOTP codes, service tutorials and the security concepts behind them.",
+    "description": "Homepage meta description"
+  },
+  "home.meta.keywords": {
+    "message": "Seedkeeper, Seedkeeper PRO, hardware security key, FIDO2, passkeys, TOTP, password manager, seed phrase, NFC security key, Satochip",
+    "description": "Homepage meta keywords, comma separated"
+  },
+  "home.hero.title": {
+    "message": "Seedkeeper Documentation",
+    "description": "Homepage main heading"
+  },
+  "home.hero.tagline": {
+    "message": "Passwords, FIDO2 passkeys and one-time codes on a card or a ring - stored on an EAL6+ certified secure element, with no cloud and no account. Whatever brought you here, start below.",
+    "description": "Homepage tagline under the main heading"
+  },
+  "home.grid.ariaLabel": {
+    "message": "Where to start",
+    "description": "Accessible label for the entry card grid"
+  },
+  "home.secondary.ariaLabel": {
+    "message": "Other sections",
+    "description": "Accessible label for the secondary link list"
+  },
+  "home.secondary.label": {
+    "message": "Also here",
+    "description": "Heading above the secondary link list"
+  },
+  "home.cta.heading": {
+    "message": "Don't have one yet?",
+    "description": "Homepage shop call to action heading"
+  },
+  "home.cta.body": {
+    "message": "Seedkeeper PRO stores your passwords, your TOTP codes and passkeys on a single certified secure element. No subscription, no account, and nothing about your credentials passes through us.",
+    "description": "Homepage shop call to action body"
+  },
+  "home.cta.button": {
+    "message": "Get your Seedkeeper",
+    "description": "Homepage shop button label"
   }
 }

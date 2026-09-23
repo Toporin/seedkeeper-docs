@@ -48,7 +48,7 @@
     "description": "The label of footer link with label=Refund and Return Policy linking to https://seedkeeper.io/refund-and-return-policy"
   },
   "copyright": {
-    "message": "Tous droits réservés – Satochip ® S.R.L. - 2026<br />Société établie en Belgique, immatriculée sous le numéro BE0770730524",
+    "message": "Tous droits réservés - Satochip ® S.R.L. - 2026<br />Société établie en Belgique, immatriculée sous le numéro BE0770730524",
     "description": "The footer copyright"
   }
 }

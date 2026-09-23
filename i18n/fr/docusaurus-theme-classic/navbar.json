@@ -8,11 +8,11 @@
     "description": "The alt text of navbar logo"
   },
   "item.label.Docs": {
-    "message": "Docs",
+    "message": "Documentation",
     "description": "Navbar item with label Docs"
   },
   "item.label.Shop now": {
-    "message": "Acheter maintenant",
+    "message": "Commander",
     "description": "Navbar item with label Shop now"
   }
 }
