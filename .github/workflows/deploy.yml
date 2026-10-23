@@ -38,4 +38,3 @@ jobs:
           source: "build/"
           target: ${{ secrets.VPS_PATH }}
           strip_components: 1
-          rm: true
